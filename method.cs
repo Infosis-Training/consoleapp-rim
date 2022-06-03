@@ -28,6 +28,8 @@ class Methods
     {
         string str = $" {Fname[0]}{Lname[0]}";
 
-        return str;
+        return str.ToUpper();
     }
+     public double GetMultply(double x, double y, double z=1) => x*y*z;
+
 }

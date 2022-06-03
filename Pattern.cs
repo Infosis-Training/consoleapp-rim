@@ -14,7 +14,6 @@ class Work
 
             Console.WriteLine();
         }
-
     }
 
     public void NumberTag()
