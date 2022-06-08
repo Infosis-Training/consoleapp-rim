@@ -1,5 +1,0 @@
-namespace OOP;
-    class Inheritance
-    {
-
-    }

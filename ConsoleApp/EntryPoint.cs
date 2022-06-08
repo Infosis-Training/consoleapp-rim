@@ -35,7 +35,7 @@ class EntryPoint
         // m.EvenAndOddd(5);
 
 
-        // Excercise e = new();
+        // Excercise1 e = new();
         // e.HashTag();
         // Console.WriteLine(e);
 
@@ -64,22 +64,27 @@ class EntryPoint
         // Console.WriteLine(s);
         // prop.Addres ="butwal";
 
-        TimePeriod tp = new();
-        tp.Hours = 7;
-        tp.GetTime();
-        Console.WriteLine(tp.GetTime());
-        
-        TimeChange tc = new();
-       
-        Console.WriteLine(tc.Time);
+        // TimePeriod tp = new();
+        // tp.Hours = 7;
+        // tp.GetTime();
+        // Console.WriteLine(tp.GetTime());
+
+        // TimeChange tc = new();
+
         // Console.WriteLine(tc.Time);
-        Console.WriteLine(TimePeriod.MyStaticMethod(20));
-    
-        ChangeTime ch =new();
-        ch.IChangeTime();
-        ch.IAnotheFunction();
+        // // Console.WriteLine(tc.Time);
+        // Console.WriteLine(TimePeriod.MyStaticMethod(20));
 
+        // ChangeTime ch = new();
+        // ch.IChangeTime();
+        // ch.IAnotheFunction();
 
+        // Generics g = new();
+        // g.sum<float>(34, 45);
+        // g.sum<string>("rim", "sudip");
+
+        Exercise4 ex = new();
+        ex.FetchData();
 
     }
 

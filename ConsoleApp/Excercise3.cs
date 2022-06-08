@@ -37,14 +37,11 @@ class TimePeriod
         }
     }
 
-    //for qn part 2
+    //for qn part 3
     public static int MyStaticMethod(int x)
     {
         return x + 5;
     }
-
-
-
 
 }
 

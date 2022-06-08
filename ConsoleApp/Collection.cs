@@ -1,9 +1,10 @@
 using System;
+using System.Collections.Generic;
+
 namespace Collect;
 class Collection
 {
-   
-     internal void LearnArrays()
+    internal void LearnArrays()
     {
         //10 =array assigmentin 1 dimension 
         byte[] ages = new byte[20];
@@ -21,13 +22,42 @@ class Collection
 
         // jagged array
         string[][] semNames = new string[3][];
-        string[] FirstSemNames={"hari","ram"};
-        string[] SecondSemNames={"bishnu","rim","sudip"};
-        semNames[0] =FirstSemNames;
-        semNames[1] =SecondSemNames;
-         Console.WriteLine(semNames[0][0]);
+        string[] FirstSemNames = { "hari", "ram" };
+        string[] SecondSemNames = { "bishnu", "rim", "sudip" };
+        semNames[0] = FirstSemNames;
+        semNames[1] = SecondSemNames;
+        Console.WriteLine(semNames[0][0]);
         Console.WriteLine(semNames[1][1]);
-         Console.WriteLine(semNames[1][2]);
-        
+        Console.WriteLine(semNames[1][2]);
+
     }
+
+    internal void LearnBuiltInCollection()
+    {
+        List<int> numbers = new();
+        numbers.Add(23);
+        numbers.Add(24);
+        numbers.Add(25);
+        numbers.Add(26);
+        numbers.Remove(23);
+        //stack and queue
+
+        Stack<string> names = new();
+        names.Push("fghjhj");
+        names.Push("fghjhj");
+        names.Pop();
+
+        Queue<double> bill = new();
+        bill.Enqueue(23.32);
+        bill.Enqueue(50.32);
+        bill.Dequeue();
+
+        Dictionary<string, byte> data = new();
+        data.Add("rim", 22);
+        data.Add("sudip", 23);
+        data.Add("suraj", 20);
+        data.Add("keshav", 24);
+}
+
+
 }

@@ -1,6 +1,6 @@
 using System;
 
-class Excercise
+class Excercise1
 {
     public void MaximumNumbers(int x, int y, int z)
     {
